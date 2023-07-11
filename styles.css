@@ -1,0 +1,312 @@
+/* header section */
+.banner {
+    background-color: rgba(229, 84, 115, 0.10);
+    width: 1920px;
+    height: 850px;
+}
+
+.banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 240px 0px 240px;
+}
+
+.picture {
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
+}
+
+.main-tittle {
+    font-family: 'Open Sans', sans-serif;
+    color: #272727;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+
+}
+
+.header-tittle {
+    /* padding: 197px 0px 147px 0px; */
+    /* margin-bottom: 100px; */
+    padding-bottom: 80px;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+    display: flex;
+    width: 634px;
+    flex-direction: column;
+
+}
+
+.btn {
+    border: 0px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 20px 43px;
+}
+/* flower of the month styles */
+#flower-of-the-month {
+    background-color: lavender;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 240px 20px 240px;
+  }
+  
+  #flower-of-the-month h1 {
+    font-family: Georgia, serif;
+    font-size: 36px;
+    color: purple;
+  }
+  
+  #flower-of-the-month p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: black;
+  }
+  
+
+/* section of featured flowers */
+.featured-flowers {
+    margin: 178px 240px 128px 240px;
+}
+
+.featured-content {}
+
+.featured-title {
+    font-family: 'Open Sans', sans-serif;
+    color: #272727;
+    text-align: center;
+
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.feature-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+
+    /* display: flex;
+    flex-direction: column;
+    flex-shrink: 0; */
+}
+
+.group-of-img {
+    /* align-items: center; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+
+}
+
+.flowers {
+    width: 310px;
+    height: 428px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    /* gap: 100px; */
+    padding: 67px 75px 0px 75px;
+}
+
+.names-of-img {
+    display: flex;
+    justify-content: space-around;
+    /* text-decoration: underline; */
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+
+}
+
+/* styles of hot deals */
+.hot-deal {
+    /* display: flex; */
+    width: 1922px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    ;
+}
+
+.hot-deal-content {
+    padding: 100px 430px 100px 395px;
+    /* margin: auto;
+    width: 50%; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.hot-title {
+    font-family: 'Open Sans', sans-serif;
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+    margin-top: 130px;
+    margin-bottom: 24px;
+}
+
+.primary-clr {
+    color: #E55473;
+}
+
+.deal-description {
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.deal-flower {
+    width: 318px;
+    height: 420px;
+    /* padding: 100px 430px 0px 176px; */
+}
+
+.deal-btn {
+    /* justify-content: center; */
+    margin: auto;
+    width: 30%;
+}
+
+/* latest deal styles */
+.latest-deal-content {
+    background-image: url('Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    /* justify-content: center; */
+
+    /* position: relative; */
+    width: 1440px;
+    height: 449px;
+    border-radius: 8px;
+    /* margin: auto;
+    width: 50%; */
+    background-position: center;
+    padding: 128px 240px;
+    text-align: center;
+
+}
+
+.latest-deal-title {
+    margin-top: 122px;
+    margin-bottom: 16px;
+    color: #272727;
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.latest-deal-description {
+    color: rgba(39, 39, 39, 0.60);
+
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+
+.subscribe-section {
+    /* gap: 16px; */
+}
+
+.email {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0px;
+    margin-right: 16px;
+}
+
+/* footer style */
+.footer {
+    width: 1922px;
+    height: 449px;
+    background-color: #111010;
+}
+
+.footer-content {
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.footer-title {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.footer-description {
+    margin-bottom: 32px;
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#copy-rights {
+    color: rgba(255, 255, 255, 0.40);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
